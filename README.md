@@ -5,6 +5,22 @@
 
 Here I collect useful guides to set up the working environment for the [Numerical Aspects course](https://github.com/paolofinelli)
 
+## Table of Contents
+- [Numerical Aspects References](#numerical-aspects-references)
+  - [Table of Contents](#table-of-contents)
+  - [Setting up the terminal with iTerm2](#setting-up-the-terminal-with-iterm2)
+    - [References](#references)
+  - [Git and Github](#git-and-github)
+    - [Useful guides](#useful-guides)
+    - [Random References](#random-references)
+    - [README.md file](#readmemd-file)
+  - [C++](#c)
+    - [Giaco](#giaco)
+    - [Useful References](#useful-references)
+  - [Python](#python)
+    - [Useful Guides](#useful-guides-1)
+    - [Useful References](#useful-references-1)
+
 ## Setting up the terminal with iTerm2
 
 This is a non-necessary section to install and setup iTerm2 in macOS. There's no difference with the built-in terminal, but the graphics is more a more satisfactory.
@@ -38,6 +54,7 @@ and then have a look at the documentation:
 
 ### Useful guides
 ### Random References
+### README.md file
 
 ## C++ 
 
