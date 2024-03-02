@@ -19,12 +19,9 @@ If you mess something up with the `.zshrc` file, the following guide may be usef
 - [How do I reset and put the zshrc file back to default?](https://stackoverflow.com/questions/45112197/how-do-i-reset-and-put-the-zshrc-file-back-to-default)
 
 ```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
-Here you should say what actually happens when you execute the code above.
 
 ### Initial Configuration
 
