@@ -16,7 +16,7 @@ Have a look at these links to install and configure iTerm 2:
 - [Beautify your iTerm2 and prompt](https://medium.com/airfrance-klm/beautify-your-iterm2-and-prompt-40f148761a49)
 
 If you mess something up with the `.zshrc` file, the following guide may be useful
-[How do I reset and put the zshrc file back to default?](https://stackoverflow.com/questions/45112197/how-do-i-reset-and-put-the-zshrc-file-back-to-default)
+- [How do I reset and put the zshrc file back to default?](https://stackoverflow.com/questions/45112197/how-do-i-reset-and-put-the-zshrc-file-back-to-default)
 
 ```shell
 packagemanager install awesome-project
