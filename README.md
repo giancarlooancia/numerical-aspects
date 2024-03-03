@@ -1,4 +1,4 @@
-![Logo of the project](media/logo.png)
+![Logo of the project](<img src="https://github.com/giancarlooancia/numerical-aspects/tree/main/media/logo.png" width="48">)
 > Logo credits: <a href="https://www.flaticon.com/free-icons/numerical" title="numerical icons">Numerical icons created by Freepik - Flaticon</a>
 
 # Numerical Aspects References
