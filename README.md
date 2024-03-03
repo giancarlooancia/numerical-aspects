@@ -70,6 +70,11 @@ and then have a look at the documentation:
 
 ## Python
 
+```shell
+pass
+```
+as a placeholder
+
 ### Anaconda
 
 To install `anaconda`, [here](https://www.anaconda.com/download).
