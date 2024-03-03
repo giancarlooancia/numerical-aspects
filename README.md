@@ -75,6 +75,11 @@ pass
 ```
 as a placeholder
 
+```shell
+isinstance(var, type)
+```
+to check `var` is of that particular `type`
+
 ### Anaconda
 
 To install `anaconda`, [here](https://www.anaconda.com/download).
