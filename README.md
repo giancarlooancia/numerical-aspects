@@ -1,7 +1,7 @@
 ![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
 
 # Numerical Aspects References
-> Just a bunch of references up to now. I use macOS 14.2 operative system, but many commands can be easily used in Linux with slightly changes. 
+> Just a bunch of references. I use macOS 14.2 operative system, but many commands can be easily used in Linux with slightly changes. 
 
 Here I collect useful guides to set up the working environment for the [Numerical Aspects course](https://github.com/paolofinelli)
 
@@ -9,14 +9,13 @@ Here I collect useful guides to set up the working environment for the [Numerica
 - [Numerical Aspects References](#numerical-aspects-references)
   - [Table of Contents](#table-of-contents)
   - [Setting up the terminal with iTerm2](#setting-up-the-terminal-with-iterm2)
-    - [References](#references)
-    - [Problems and Improvements](#problems-and-improvements)
   - [Git and Github](#git-and-github)
     - [Useful guides](#useful-guides)
     - [Random References](#random-references)
     - [README.md file](#readmemd-file)
   - [C++](#c)
     - [Giaco](#giaco)
+    - [Doctest](#doctest)
     - [Useful References](#useful-references)
   - [Python](#python)
     - [Anaconda](#anaconda)
@@ -29,7 +28,6 @@ Here I collect useful guides to set up the working environment for the [Numerica
 
 This is a non-necessary section to install and setup iTerm2 in macOS. There's no difference with the built-in terminal, but the graphics is more a more satisfactory.
 
-### References
 
 Have a look at these links to install and configure iTerm 2:
 - [Make Your MacOS Terminal Look Great](https://blog.protein.tech/make-your-macos-terminal-look-great-76dceb96607e)
@@ -53,29 +51,64 @@ brew install zplug
 and then have a look at the documentation:
 - [zplug documentation](https://github.com/zplug/zplug)
 
-### Problems and Improvements
-
 
 
 ## Git and Github
 
 ### Useful guides
-### Random References
-### README.md file
+Have a look at the following repo, which collects many well-written guides concerning git:
+- [Git Tutorials](https://gist.github.com/jaseemabid/1321592)
 
-## C++ 
+In particular, I'd suggest to start with the following PDF written by [Scott Chacon](https://github.com/schacon) and published by PeepCode. For a more in depth study, have a look at the Pro Git Book:
+- [PeepCode Git Internals PDF](https://github.com/pluralsight/git-internals-pdf)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+
+
+### Random References
+Here I'll collect some useful references about random stuff concerning Git:
+- [Interactive Staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging)
+- [Git Rebase](https://www.simplilearn.com/what-is-git-rebase-command-article#:~:text=A%20Git%20rebase%20changes%20the,branch%20from%20a%20different%20commit)
+- [Changing GitHub username](https://www.freecodecamp.org/news/a-quick-guide-to-changing-your-github-username/)
+
+
+### README.md file
+If you need a ready-to-copy-paste template for the `README.md` file for you repo, look at
+-[Readme Best Practices](https://github.com/jehna/readme-best-practices)
+
+If you use Visual Studio and you want to automatically generate the table of contents, download the plugin `Markdown All in One`:
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+## C++
+This section is about `C++` language
 
 ### Giaco
+Here the repo of `Programmazione per la fisica` course from UNIBO physics bachelor:
+- [Configurazione dell'ambiente di lavoro su macOS](https://github.com/Programmazione-per-la-Fisica/howto/blob/main/other-OSes/macOSGuide.md)
+- [Programmazione per la Fisica 2022/2023](https://github.com/Programmazione-per-la-Fisica/pf2022?tab=readme-ov-file)
+- [Laboratori Programmazione per la Fisica 2022/2023](https://github.com/Programmazione-per-la-Fisica/labs2022)
+
+### Doctest
+To test the code one could use [Doctest](https://github.com/doctest/doctest), which can be included downloading its header:
+- [Doctest Header](https://raw.githubusercontent.com/doctest/doctest/master/doctest/doctest.h)
+
+```c++
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+
+#include "doctest.h"
+
+TEST_CASE("Testing the sum_n function") { }
+```
+
 ### Useful References
 
 ## Python
 
-```shell
+```python
 pass
 ```
 as a placeholder
 
-```shell
+```python
 isinstance(var, type)
 ```
 to check `var` is of that particular `type`
