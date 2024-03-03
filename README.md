@@ -78,7 +78,7 @@ conda config --set changeps1 False
 
 ### Anaconda and Spyder
 
-To install anaconda [here](https://www.anaconda.com/download). At the end of the installation procedure, it is asked to install `doxygen`.
+To install anaconda, [here](https://www.anaconda.com/download). At the end of the installation procedure, it is asked to install `doxygen`.
 
 ### Useful Guides
 ### Useful References
