@@ -19,7 +19,8 @@ Here I collect useful guides to set up the working environment for the [Numerica
     - [Giaco](#giaco)
     - [Useful References](#useful-references)
   - [Python](#python)
-    - [Anaconda and Spyder](#anaconda-and-spyder)
+    - [Anaconda](#anaconda)
+    - [Spyder](#spyder)
     - [Useful Guides](#useful-guides-1)
     - [Useful References](#useful-references-1)
   - [Doxygen](#doxygen)
@@ -53,14 +54,7 @@ and then have a look at the documentation:
 - [zplug documentation](https://github.com/zplug/zplug)
 
 ### Problems and Improvements
-If the terminal shows `(base)` in front of the terminal prompt, it is due to Conda environment, see:
-- [Why does "(base)" appear in front of my terminal prompt?](https://askubuntu.com/questions/1026383/why-does-base-appear-in-front-of-my-terminal-prompt)
 
-You can hide it with
-
-```shell
-conda config --set changeps1 False
-```
 
 
 ## Git and Github
@@ -76,9 +70,28 @@ conda config --set changeps1 False
 
 ## Python
 
-### Anaconda and Spyder
+### Anaconda
 
-To install anaconda, [here](https://www.anaconda.com/download). At the end of the installation procedure, it is asked to install `doxygen`.
+To install `anaconda`, [here](https://www.anaconda.com/download).
+
+If, after the installation, the terminal shows `(base)` in front of the terminal prompt, it is due to Conda environment, see:
+- [Why does "(base)" appear in front of my terminal prompt?](https://askubuntu.com/questions/1026383/why-does-base-appear-in-front-of-my-terminal-prompt)
+
+You can hide it with
+
+```shell
+conda config --set changeps1 False
+```
+
+### Spyder
+To easily write and compile python codes, let's use `spyder`, inside `anaconda`. The program itself gives a quick starting guide, based on these notes by [Hans Fangohr](https://fangohr.github.io)
+- https://fangohr.github.io/blog/spyder-the-python-ide-spyder-23.html
+
+Here, we collect some useful settings and commands.
+
+```shell
+%reset
+```
 
 ### Useful Guides
 ### Useful References
