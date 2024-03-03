@@ -49,6 +49,16 @@ brew install zplug
 and then have a look at the documentation:
 - [zplug documentation](https://github.com/zplug/zplug)
 
+### Problems and Improvements
+If the terminal shows `(base)` in front of the terminal prompt, it is due to Conda environment, see:
+- [Why does "(base)" appear in front of my terminal prompt?](https://askubuntu.com/questions/1026383/why-does-base-appear-in-front-of-my-terminal-prompt)
+
+You can hide it with
+
+```shell
+conda config --set changeps1 False
+```
+
 
 ## Git and Github
 
