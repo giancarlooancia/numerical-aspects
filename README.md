@@ -73,6 +73,10 @@ conda config --set changeps1 False
 
 ## Python
 
+### Anaconda and Spyder
+
+To install anaconda [here](https://www.anaconda.com/download). At the end of the installation process
+
 ### Useful Guides
 ### Useful References
 
