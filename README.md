@@ -1,6 +1,3 @@
-![Logo of the project](<img src="https://github.com/giancarlooancia/numerical-aspects/blob/main/media/logo.png" width="48">)
-> Logo credits: <a href="https://www.flaticon.com/free-icons/numerical" title="numerical icons">Numerical icons created by Freepik - Flaticon</a>
-
 # Numerical Aspects References
 > Just a bunch of references. I use macOS 14.2 operative system, but many commands can be easily used in Linux with slightly changes. 
 
