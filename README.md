@@ -10,6 +10,7 @@ Here I collect useful guides to set up the working environment for the [Numerica
   - [Table of Contents](#table-of-contents)
   - [Setting up the terminal with iTerm2](#setting-up-the-terminal-with-iterm2)
     - [References](#references)
+    - [Problems and Improvements](#problems-and-improvements)
   - [Git and Github](#git-and-github)
     - [Useful guides](#useful-guides)
     - [Random References](#random-references)
@@ -18,8 +19,10 @@ Here I collect useful guides to set up the working environment for the [Numerica
     - [Giaco](#giaco)
     - [Useful References](#useful-references)
   - [Python](#python)
+    - [Anaconda and Spyder](#anaconda-and-spyder)
     - [Useful Guides](#useful-guides-1)
     - [Useful References](#useful-references-1)
+  - [Doxygen](#doxygen)
 
 ## Setting up the terminal with iTerm2
 
@@ -75,8 +78,17 @@ conda config --set changeps1 False
 
 ### Anaconda and Spyder
 
-To install anaconda [here](https://www.anaconda.com/download). At the end of the installation process
+To install anaconda [here](https://www.anaconda.com/download). At the end of the installation procedure, it is asked to install `doxygen`.
 
 ### Useful Guides
 ### Useful References
 
+## Doxygen
+To install `doxygen`
+
+```shell
+brew install doxygen
+```
+
+If you don't like the icon of the program, have a look here:
+- https://macosicons.com/#/u/ale.fdezsuarez
