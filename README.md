@@ -41,10 +41,6 @@ If you mess something up with the `.zshrc` file, the following guide may be usef
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
-```bash
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-```
-
 
 To set up and understand what `zplug` is, first, install it with
 
@@ -102,6 +98,19 @@ To test the code one could use [Doctest](https://github.com/doctest/doctest), wh
 
 TEST_CASE("Testing the sum_n function") { }
 ```
+
+I had problems with doctest compiling with `gcc 13`, therefore I've chosen to compile with `gcc 12`. To do so, let's first install it:
+
+```shell
+brew install gcc@12
+```
+
+and compile with:
+
+```shell
+g++-12 name.cpp -o name
+```
+
 
 ### Useful References
 
