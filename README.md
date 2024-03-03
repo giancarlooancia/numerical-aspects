@@ -41,6 +41,10 @@ If you mess something up with the `.zshrc` file, the following guide may be usef
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
+```bash
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+```
+
 
 To set up and understand what `zplug` is, first, install it with
 
