@@ -21,7 +21,6 @@ Here I collect useful guides to set up the working environment for the [Numerica
     - [Anaconda](#anaconda)
     - [Spyder](#spyder)
     - [Useful Guides](#useful-guides-1)
-    - [Useful References](#useful-references-1)
   - [Doxygen](#doxygen)
 
 ## Setting up the terminal with iTerm2
@@ -155,12 +154,29 @@ To easily write and compile python codes, let's use `spyder`, inside `anaconda`.
 
 Here, we collect some useful settings and commands.
 
+To reset the console, type
 ```shell
 %reset
 ```
 
+To list all the objects defined in the current namespace
+```shell
+dir()
+```
+
+There's a setting to check for `PEP8` Compliance and another to enable `SYMbolic PYthon` mode in the console. Everything is well explained in the Help section. For further references:
+- [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- [SymPy](https://www.sympy.org/en/index.html)
+
+If you mess up with spyder's customizations, you can easily reset them typing
+```shell
+spyder --reset
+```
+
 ### Useful Guides
-### Useful References
+To start with `Python` have a look at the book Think Python by [Allen Downey](https://www.allendowney.com/wp/), downloadable here
+- [Think Python](https://greenteapress.com/thinkpython2/thinkpython2.pdf)
+
 
 ## Doxygen
 To install `doxygen`
