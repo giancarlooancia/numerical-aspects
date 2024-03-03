@@ -122,16 +122,8 @@ Here some useful links to doctest's documentation
 ### Useful References
 
 ## Python
+This section is about `Python` language
 
-```python
-pass
-```
-as a placeholder
-
-```python
-isinstance(var, type)
-```
-to check `var` is of that particular `type`
 
 ### Anaconda
 
