@@ -78,8 +78,13 @@ If you need a ready-to-copy-paste template for the `README.md` file for you repo
 If you use Visual Studio and you want to automatically generate the table of contents, download the plugin `Markdown All in One`:
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
+
 ## C++
-This section is about `C++` language
+This section is about `C++` language. To easily write and compile code online, have a look at `Godbolt`
+- [Compiler Explorer](https://godbolt.org)
+
+To review the basics look at the `C++ Core Guidelines` by [Bjarne Stroustrup](https://www.stroustrup.com) and [Herb Sutter](https://herbsutter.com)
+- [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
 ### Giaco
 Here the repo of `Programmazione per la fisica` course from UNIBO physics bachelor:
@@ -110,6 +115,11 @@ and compile with:
 ```shell
 g++-12 name.cpp -o name
 ```
+
+Here some useful links to doctest's documentation
+- [Exceptions Doctest](https://github.com/doctest/doctest/blob/master/doc/markdown/assertions.md#exceptions)
+- [Subcases Doctest](https://github.com/doctest/doctest/blob/master/doc/markdown/tutorial.md#test-cases-and-subcases)
+
 
 
 ### Useful References
